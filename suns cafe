@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun's Café - Yuba City</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fffaf0;
+            color: #333;
+        }
+
+        header {
+            background-color: #f4a261;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: #e76f51;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #e76f51;
+        }
+
+        .card {
+            background: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #264653;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sun's Café</h1>
+    <p>Breakfast Restaurant in Yuba City, California</p>
+</header>
+
+<nav>
+    <a href="#overview">Overview</a>
+    <a href="#menu">Menu</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#about">About</a>
+    <a href="#photos">Photos</a>
+</nav>
+
+<section id="overview">
+    <h2>Overview</h2>
+    <div class="card">
+        <p>Sun's Café is a popular breakfast and brunch spot known for its homey, casual atmosphere, friendly service, and great value.</p>
+        <p>📍 646 Gray Ave, Yuba City, CA 95991</p>
+        <p>📞 (530) 673-1689</p>
+        <p>💲 $10–20 per person</p>
+        <p>🕒 Closed · Opens 8:30 AM Wed</p>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <div class="card">
+        <p>🍳 Breakfast Burritos</p>
+        <p>🥗 Veggie Bibimbap</p>
+        <p>🥞 Pancakes & Classic Breakfasts</p>
+        <p>☕ Fresh Coffee</p>
+        <p>🥓 Comfort Food & Healthy Options</p>
+    </div>
+</section>
+
+<section id="reviews">
+    <h2>Reviews</h2>
+    <div class="card">
+        <p>⭐ 4.7 / 5 (297 reviews)</p>
+        <p>"Great food, friendly service, and awesome value!"</p>
+        <p>"One of the best breakfast spots in Yuba City."</p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <div class="card">
+        <p>Sun’s Café serves a mix of American and Korean-inspired dishes. It’s a go-to spot for locals looking for delicious, made-from-scratch meals in a relaxed setting.</p>
+        <p>✔ Kids’ menu available</p>
+        <p>❌ No reservations</p>
+    </div>
+</section>
+
+<section id="photos">
+    <h2>Photos</h2>
+    <div class="card">
+        <p>📸 Add your food and café photos here!</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sun's Café | Yuba City, CA</p>
+</footer>
+
+</body>
+</html>
